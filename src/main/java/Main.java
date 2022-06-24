@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Enter a number to get its sum from 1 to specified number: ");
         if (!sc.hasNextInt()) {
             System.out.println("Invalid input");
-            System.exit(1);
+            return;
         }
         int num = sc.nextInt();
         int sum = 0;
